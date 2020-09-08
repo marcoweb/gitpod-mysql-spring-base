@@ -1,4 +1,4 @@
 image: gitpod/workspace-mysql
 
 tasks:
-  - init: mysql -uroot -e "create database 'applicationdb'"
+  - init: mysql -u root -e "CREATE DATABASE appliationdb"
